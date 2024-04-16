@@ -1,0 +1,1508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav700, #nav480{
+    display: none;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #000; */
+    position: fixed;
+    z-index: 1;
+}
+.left{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-left: 40px;
+
+}
+ul{
+    display: flex;
+    width: 400px;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+ul li{
+    list-style: none;
+}
+.left img{
+    width: 25%;
+    height: 40px;
+}
+.right{
+    width: 30%;
+    height: inherit;
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sign{
+    padding: 5px 15px;
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.sign a{
+    text-decoration: none;
+    color: red;
+}
+.ss {
+    /* padding-top: 10px; */
+    text-decoration: none;
+}
+.ss:hover{
+    color: blue;
+    cursor: pointer;
+}
+.worldie{
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    font-size: 12px;
+}
+.camp{
+    /* border: 1px solid red; */
+    position: relative;
+}
+.red{
+    background-color: red;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+ @media(max-width:700px){
+    #nav480{
+        width: 100%;
+        height: 70px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        position: fixed;
+    }
+    nav{
+        display: none;
+    }
+  
+ }
+
+#section700, #section480{
+    display: none;
+}
+section{
+    width: 100%;
+    height: 1150px;
+    padding-top: 30px;
+    /* position: relative; */
+    background-color: #f8f9fb;
+}
+.bigBoy{
+    width: 100%;
+    height: 70%;
+    background-color: inherit;
+    /* border: 1px solid red; */
+    margin-top: 8em;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+}
+.upper{
+    width: 65%;
+    height: 650px;
+    background-color: #f8f9fb;
+}
+.roller{
+    padding: 10px 30px;
+    font-size: 44px;
+}
+.loll{
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.free{
+    margin: 10px 20px;
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
+.imo img{
+    width: 105%;
+    margin-top: 2em;
+}
+.absolu{
+    width: 33%;
+    height: 680px;
+    border: 5px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 80px;
+    margin-top: 2em;
+    
+}
+.ff{
+    padding: 20px 30px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.collector{
+    width: 340px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.laid{
+    /* border: 1px solid red; */
+    width: 280px;
+}
+.inflex{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.icony{
+    font-size: 25px;
+    color: blue;
+}
+.lastty{
+    /* padding: 10px 30px; */
+    display: inline-flex;
+    text-decoration: none;
+    width: 340px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin:10px 30px;
+}
+.lastty a{
+    text-decoration: none;
+}
+
+
+
+
+.topper{
+    width: 80%;
+    height: 190px;
+    /* border: 1px solid red; */
+    margin: 120px auto;
+    /* margin-top: 40px; */
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.abb{
+    background-color: green;
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    border: none;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.lel{
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.lel img{
+    width: 35%;
+}
+.rig{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rig img{
+    width: 100%;
+}
+.lowkey{
+    width: 60%;
+    height: 120px;
+    border-left: 1px solid black;
+    margin-top: 30px;
+    padding-left: 30px;
+   
+}
+.imoo{
+    width: 40%;
+    height: inherit;
+    margin-top: 20px;
+}
+
+
+.looo{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.now{
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+main{
+    width: 100%;
+    height: 700px;
+    background-color: #fed600;
+    
+}
+#main480{
+    display: none;
+} 
+
+
+.doubleBarrell{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid #000; */
+    padding-top: 14em;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.leftyKO, .rightJob{
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+.leftyKO{
+    /* width: 40%; */
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.smallo{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.ror{
+    font-weight:lighter ;
+}
+.lii,.lasd{
+    font-size: 20px;
+}
+
+.iconholder .cube{
+    font-size: 90px;
+    color: red;
+}
+.tryz{
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+.iconko .quote{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 90px;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin:20px 95px;
+    font-size: 22px;
+   
+}
+.imageNword{
+    display: flex;
+    /* border: 1px solid red; */
+    width:50%;
+    margin-left: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageNword img{
+    width: 35%;
+}
+
+article{
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fb;
+}
+#article480{
+    display: none;
+}
+.brand{
+    width: 30%;
+    height: 60px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin:auto;
+    padding-top: 70px;
+}
+.logos{
+    width: 70%;
+    display: flex;
+    margin: 90px auto;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+.logos img{
+ width: 100px;
+ height: 50px;
+}
+.bderless{
+    margin: auto;
+    display: block;
+    color: blue;
+    border: none;
+    background-color: #f8f9fb;
+}
+aside{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+.collectory{
+    width: 100%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.rightholder{
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 580px;
+    margin: 110px 40px;
+}
+.rightholder img{
+    width: 100%;
+}
+.koss img{
+    width: 40%;
+    display: block;
+    margin: 10px;
+}
+.ty{
+    font-size: 22px;
+    color: red;
+}
+.extra{
+    /* border: 2px solid yellow; */
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin:40px 30px;
+}
+.leftkonga{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid #000; */
+    margin-top: 12em;
+    padding-top: 30px;
+}
+.sososos{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-left: 5px;
+}
+.longi{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+.tryMe{
+    display: block;
+    background-color: rgb(72, 195, 236);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+}
+#aside480{
+    display: none;
+}
+.middlebelt{
+    width: 100%;
+    height: 450px;
+    background-color: #0060b4;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+}
+.middlebelt480{
+    display: none;
+}
+.mdmd{
+    font-size: 45px;
+    color: #fff;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding: 30px 50px;
+    /* border: 1px solid #000; */
+}
+.bandits{
+    width: 40%;
+    height: 300px;
+    display: flex; 
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin:50px 50px;
+}
+.bandgan{
+    width: 40%;
+}
+.kobo{
+    width: 40%;
+}
+.numbers{
+    /* border: 1px solid #000; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.milli{
+    color: #fff;
+    font-size: 30px;
+}
+.lojo{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: #fff;
+}
+.stairy{
+    color: #fff;
+}
+.open{
+    background-color: #0060b4;
+   width: 200px;
+   height: 50px;
+   display: block;
+   margin-top: 20px;
+   border: 1px solid #fff;
+   color: #fff;
+   font-size: 16px;
+   padding: 10px 10px;
+}
+.lastbender{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+}
+.lastbender480{
+    display:  none;
+}
+.ico{
+    width: 80px;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin:70px auto
+}
+.classy{
+    font-size: 60px;
+    color: #f00;
+}
+.middleclass{
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: sans-serif;
+
+}
+.levels{
+    text-align: center;
+    font-size : 20px
+}
+.tran{
+    padding: 10px 20px;
+    color: #5886af;
+    border: 1px solid #5886af;
+    background-color: #fff;
+    display: block;
+    margin: 30px auto;
+}
+.rel480{
+    display: none;
+}
+.insideReel480{
+    display: none;
+}
+.lostyy480{
+    display: none;
+}
+.noboder480{
+    display: none;
+}
+.rel{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/core-value-banner-img.webp);
+    background-repeat: no-repeat;
+
+}
+.reelo{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: lighter;
+
+}
+.insideReel{
+    width: 90%;
+    height: 650px;
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 10em;
+}
+.lostyy{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.onofakind{
+    width: 30%;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.reel{
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fb;
+}
+
+.onofakind img{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+.nolele{
+    text-align: center;
+    font-weight: light;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+.omolomo{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 20px;
+
+}
+.readMe{
+    margin:30px  auto;
+    display: block;
+    background-color: #5886af;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+.noboder{
+    width: 100%;
+    height: 550px;
+    background-color: #f8f9fb;
+    
+}
+.divider{
+    width: 98%;
+    height: inherit;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+}
+.scopeMan{
+    width: 55%;
+    height: 400px;
+    /* border: 2px solid red; */
+    margin-left: 40px;
+}
+.ceoimage{
+    width: 30%;
+    height: 400px;
+}
+.ceoimage img{
+    width: 100%;
+    height: inherit;
+}
+.forbes{
+    background-color: #000;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: light;
+}
+.vision{
+    font-size: 45px;
+    padding-top: 30px;
+    font-weight: light;
+}
+.villageMan{
+    font-size: 19px;
+    font-weight: light;
+    font-family: sans-serif;
+}
+.moreon{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #5886af;
+    color: #5886af;
+    margin-top: 30px;
+    font-weight: light;
+    /* font-family: sans-serif; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightyy{
+    font-size: 12px;
+    padding-top: 4px;
+}
+.lastbendea{
+    width: 100%;
+    height: 800px;
+    background-color: #f3f5f9;
+}
+.holdMeDown{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.ragga{
+    width: 23%;
+    height: 400px;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+}
+.woos{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: light;
+    font-family: sans-serif;
+}
+.wooobs{
+    text-align: center;
+    font-weight: light;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.access{
+    display: block;
+    margin: 20px auto;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+.iccop{
+    font-size: 14px;
+}
+.lots{
+    padding-left: 30px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.ragga ol{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 17px;
+  
+}
+.ragga li a{
+    text-decoration: none;
+    color: #000;
+}
+.ragga ol li a:hover{
+    color: #5886af;
+}
+.logoforMe{
+    width: 20%;
+    height: 60px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    align-items: center;
+    margin: auto;
+}
+.logoforMe img{
+    width: 50px;
+}
+.longMan{
+    width: 80%;
+    /* border: 1px solid #000; */
+    margin:20px auto;
+    text-align: center;
+}
+.longMan span a{
+    text-decoration: none;
+    border-right: 1px solid #000;
+    padding-right: 5px;
+    color: #000;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.longMan span a:hover{
+    color: #5886af;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    /* margin-top: 30px; */
+}
+.lasthoho{
+    width: 60%;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin:  auto;
+}
+.lasthoho img{
+    width: 70px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+.loas{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.accordion480{
+    display: none;
+}
+.footer480{
+    display: none;
+}
+
+/* this is the media query code session */
+@media(max-width:480px){
+    section{
+        display: none;
+    }
+    #section480{
+        display: block;
+        width: 100%;
+        height: 2000px;
+        padding-top: 60px;
+        background-color: #f8f9fb;
+    }
+    .bigBoy480{
+        width: 80%;
+        height: 450px;
+        /* border: 1px solid red; */
+        margin: 60px auto;
+
+    }
+    .upper480{
+        width: 100%;
+        height: 140px;
+        /* border: 1px solid black; */
+        text-align: center;
+    }
+    .roller480{
+        font-size: 30px;
+    }
+    .loll480{
+        font-size: 18px;
+        text-align: center;
+    }
+    .free480{
+        background-color: red;
+        margin-left: 60px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .imo480{
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    .absolu480{
+        width: 90%;
+        height: 700px;
+        /* border: 1px solid red; */
+        margin: auto;
+        background-color: #fff;
+    }
+    .ff480{
+        padding: 30px 50px;
+    }
+    .collector480{
+        width: 70%;
+        /* border: 1px solid red; */
+        height: 100px;
+        margin:30px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .laid480{
+        width: 80%;
+        height: 140px;
+        /* border: 1px solid #000; */
+    }
+    .inflex480{
+        width: 100%;
+        height: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        /* border: 1px solid yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lastty{
+        margin-left: 50px;
+    }
+    .topper{
+        display: none;
+    }
+    .topper480{
+        width: 90%;
+        height: 500px;
+        background-color: #fff;
+        border: 4px solid #fff;
+        margin: 80px auto;
+    }
+    .abb480{
+        background-color: green;
+        border: none;
+        color: #fff;
+    }
+    .lel480{
+       width: 40%;
+       /* height: 90px; */
+       /* border: 1px solid #000; */
+       display: flex;
+       align-items: center;
+       margin: 20px auto;
+    }
+    .lel480 img{
+            width: 45%;
+    }
+    .lowkey480{
+        width: 90%;
+        height: 120px;
+        /* border: 1px solid red; */
+        margin: 20px auto;
+        text-align: center;
+    }
+    .looo480{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .now480{
+        padding: 10px 20px;
+        margin: -10px;
+        background-color: rgb(73, 188, 226);
+        border: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    .imoo480{
+        width: 90%;
+        height: 200px;
+        /* border: 1px solid red; */
+        margin: 30px auto;
+    }
+    .lost{
+        width: 90%;
+    }
+    main{
+        display: none;
+    }
+    #main480{
+        display: block;
+        width: 100%;
+        height: 950px;
+    }
+    .doubleBarrell480{
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leftyKO480{
+        /* border: 1px solid red; */
+
+    }
+    .iconholder480 .cube{
+        text-align: center;
+        color: red;
+        display: block;
+        font-size: 90px;
+        padding-top: 40px;
+
+}
+.packer480{
+    /* border: 1px solid black; */
+}
+.smallo480{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+.ror480{
+    text-align: center;
+}
+.lii480{
+    text-align: center;
+}
+.lasd480{
+    text-align: center;
+    font-size: 18px;
+    font-weight: light;
+}
+.tryz480{
+    margin: auto;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.rightJob480{
+    margin: 20px auto;
+    border-top: 1px solid #000;
+    width: 80%;
+}
+.iconko480 .quote{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+.pp480{
+    text-align: center;
+    font-size: 22px;
+}
+.imageNword480 img{
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+.intro480{
+    text-align: center;
+    padding-top: 10px;
+}
+article{
+    display: none;
+    
+}
+#article480{
+    display: block;
+    width: 100%;
+    height: 480px;
+    background-color: #f8f9fb;
+    /* border-bottom: 2px solid green; */
+}
+.brand480{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+}
+.brnd480{
+    text-align: center;
+    padding-top: 40px;
+}
+.logos480{
+    width: 100%;
+    height: 300px; 
+     /* border: 1px solid red; */
+}
+.firsthalf480 {
+    width: 80%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+.secondhalf480{
+    width: 70%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    margin:60px auto;
+    justify-content: space-between;
+}
+.firsthalf480 img{
+    width: 20%;
+}
+.secondhalf480 img{
+    width: 20%;
+}
+.bderless480{
+    padding: 10px 20px;
+    color: blue;
+    border: none;
+    background-color: #f8f9fb;
+    display: block;
+    margin: auto;
+}
+aside{
+    display: none;
+}
+#aside480{
+    display: block;
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+}
+
+.collectory480{
+    width: 100%;
+    height: inherit;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.leftkonga480{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid #000; */
+   /* padding-top: 5px; */
+}
+.sososos480{
+    text-align: center;
+    font-size: 30px;
+    font-weight: light;
+    font-family: sans-serif;
+}
+.longi480{
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: light;
+}
+.tryMe480{
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: none;
+    margin: auto;
+    display: block;
+}
+.rightholder480{
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-top: 40px;
+    /* height: 800px; */
+}
+.rightholder480 img{
+    width: 100%;
+    height: 250px;
+}
+.kasa480{
+    text-align: center;
+    padding-top: 40px;
+}
+.who480{
+    text-align: center;
+}
+.who480 h5{
+    font-weight: bolder;
+}
+.koss480{
+    /* border: 1px solid blue; */
+    width: 25%;
+    height: 180px;
+    margin: auto;
+}
+.koss480 img{
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    
+}
+.lil480{
+    padding-top: 10px;
+}
+.yt{
+    font-size: 22px;
+    color: red;
+}
+.middlebelt{
+    display:none;
+}
+.middlebelt480{
+    display: block;
+    width: 100%;
+    height: 900px;
+    background-color: #0060b4;
+    margin-top: 30px;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.mdmd480{
+    padding-top: 60px;
+    color: #f8f9fb;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+    .bandit480{
+        width: 100%;
+        height: 300px;
+        border: 1px solid red;
+    }
+    .numbers480{
+        display: flex;
+        width: 65%;
+        /* border: 2px solid red; */
+        margin: 20px 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .milli480{
+        font-size: 40px;
+        color: #f8f9fb;
+    }
+    .stairy480{
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        color: #f8f9fb;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .open480{
+        padding: 10px 20px;
+        background-color: #0060b4;
+        color: #f8f9fb;
+        margin:20px 40px;
+        border: 1px solid #fff;
+}
+.lastbender{
+    display: none;
+}
+.lastbender480{
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+}
+.ico480{
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+.classy480{
+    font-size: 70px;
+    color: red;
+}
+.middleclass480{
+    text-align: center;
+    padding: 0;
+}
+.levels480{
+    width: 85%;
+    height: 160px;
+    /* border: 1px solid green; */
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.tran480{
+    padding: 10px 20px;
+    margin: 30px auto;
+    display: block;
+    background-color: #fff;
+    color: #5886af;
+    border: 1px solid #5886af;
+}
+.yy480{
+    color: red;
+}
+.rel, .reel{
+    display: none;
+}
+.insideReel{
+    display: none;
+}
+
+.lastbendea{
+    display: none;
+}
+footer{
+    display: none;
+}
+.rel480{
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/core-value-banner-img.webp);
+    background-repeat: no-repeat;
+
+}
+.insideReel480{
+    width: 90%;
+    height: 1300px;
+    display: block;
+    background-color: #fff;
+    position: relative;
+    /* border: 1px solid red; */
+    margin: -50px auto;
+    /* top: 150px;
+    left: 20px; */
+
+}
+.reelo480{
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: light;
+    padding-top: 30px;
+}
+.lostyy480{
+    display: block;
+}
+.onofakind480 img{
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+.nolele480{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.omolomo480{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.readMe480{
+    padding: 10px 20px;
+    background-color: #5886af;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 40px auto;
+    border: none;
+}
+.noboder,.divider,.ceoimage{
+    display: none;
+}
+ .noboder480{
+    display: block;
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+
+}
+.divider480{
+    width: 100%;
+    height: inherit;
+}
+.ceoimage480{
+    width: 50%;
+    height: 80px;
+    margin:30px auto;
+}
+.ceoimage480 img{
+        width: 100%;
+        height: 350px;
+}
+.forbes480{
+    background-color: #000;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    margin: 50px auto;
+}
+.vision480{
+    text-align: center;
+    font-size: 30px;
+}
+.villageMan480{
+    text-align: center;
+    font-size: 18px;
+    font-weight: light;
+}
+.moreon480{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #5886af;
+    margin: 30px auto;
+    display: block;
+    border: 1px solid #5886af;
+}
+.lastbendeads480{
+    display: none;
+}
+footer{
+    display: none;
+}
+.accordion480{
+    display: block;
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+.accordion-body{
+    display: block;
+    width: 100%;
+    height: 250px;
+
+}
+.accordion-body ul li{
+    display: block;
+}
+#footer480{
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+.lok480{
+    /* border: 1px solid #fff; */
+    margin: auto;
+    width: 40%;
+    padding-top: 20px;
+    
+}
+.zho{
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+.smalllogo480{
+    width: 50%;
+    height: 50px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px  auto;
+
+}
+.smalllogo480 img{
+    width: 10%;
+    height: inherit;
+    display: block;
+}
+
+.blacko480{
+    background-color: #000;
+    width: 100%;
+    height: 150px;
+}
+.blacko480 img{
+    width: 12%;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+.laso480{
+    color: #ffff;
+    text-align: center;
+
+
+}
+.basefixed{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+
+}
+.fixedbase{
+    color: #fff;
+    background-color: red;
+    margin-top: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 70%;
+    border: none;
+}
+.fixedbase a{
+    text-decoration: none;
+    color: #fff;
+}
+.lastfixed{
+    width: 15%;
+    height: inherit;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+
+}
+
+
+
+
+
+}
