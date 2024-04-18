@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	
+	}
+	ul{
+		list-style-type: none;
+		background-color: red;
+	}
+	ul li{
+		display: inline-block;
+		
+	}
+	ul li a{
+		display: block;
+		padding: 20px 25px;
+		color: blue;
+		text-decoration: none;
+		text-align: center;
+	}
+	ul li ul .dropdown li{
+		display: block;
+	}
+	.dropdown{
+		width: 100%;
+		position: absolute;
+		z-index: 999;
+		background-color: #FF0;
+		display: none;
+	}
+	ul li a:hover{
+		background-color: green;
+		color: #fff;
+	}
+	ul li:hover ul.dropdown {
+		display: block;
+	}
+</style>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Langauges</a>
+				
+			</li>
+			<li><a href="#">Contact Us</a>
+				<ul class="dropdown">
+					<li><a href="#">JAVA</a></li>
+					<li><a href="#">JAVA </a></li>
+					<li><a href="#">JAVA</a></li>
+					<li><a href="#">JAVA</a></li>
+					</ul>
+				</li>
+			<li><a href="#">About Us</a>
+				<ul class="dropdown">
+					<li><a href="#">JAVA</a></li>
+					<li><a href="#">JAVA </a></li>
+					<li><a href="#">JAVA</a></li>
+					<li><a href="#">JAVA</a></li>
+					</ul>
+				</li>
+		</ul>
+	</nav>
+</body>
+</html>

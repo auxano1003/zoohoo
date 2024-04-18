@@ -13,35 +13,70 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid #000; */
     position: fixed;
     z-index: 1;
 }
 .left{
     width: 50%;
-    height: inherit;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
+    justify-content: space-between;
+    
+}
+.left img{
+    width: 150px;
+    height: 60px;
     margin-left: 40px;
-
 }
 ul{
     display: flex;
-    width: 400px;
-    height: inherit;
     align-items: center;
     justify-content: space-between;
+    width: 55%;
     /* border: 1px solid red; */
 }
+.arrow{
+    font-size: 10px;
+}
 ul li{
-    list-style: none;
+    list-style-type: none;
 }
-.left img{
-    width: 25%;
-    height: 40px;
+ul li a{
+    text-decoration: none;
+    color: #000;
 }
+.dropdown .dropbtn, .dropbtn1 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content li {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  
+
 .right{
     width: 30%;
     height: inherit;
